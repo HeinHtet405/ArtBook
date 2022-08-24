@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ArtBook</string>
+    <string name="txt_hint_search">Search Image</string>
+    <string name="txt_hint_name">Enter Name</string>
+    <string name="txt_hint_artist">Enter Artist</string>
+    <string name="txt_hint_year">Enter Year</string>
 </resources>
