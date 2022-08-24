@@ -1,4 +1,7 @@
 package com.devshub.artbook
 
-class ArtBookApplication {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class ArtBookApplication: Application()

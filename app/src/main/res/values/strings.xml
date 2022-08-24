@@ -4,4 +4,5 @@
     <string name="txt_hint_name">Enter Name</string>
     <string name="txt_hint_artist">Enter Artist</string>
     <string name="txt_hint_year">Enter Year</string>
+    <string name="btn_save">Save</string>
 </resources>

@@ -20,6 +20,7 @@
         android:layout_height="60dp"
         android:hint="@string/txt_hint_name"
         android:layout_margin="8dp"
+        android:inputType="text"
         app:layout_constraintTop_toBottomOf="@id/ivArtDetail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -30,6 +31,7 @@
         android:layout_height="60dp"
         android:hint="@string/txt_hint_artist"
         android:layout_margin="8dp"
+        android:inputType="textPersonName"
         app:layout_constraintTop_toBottomOf="@id/etName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -40,6 +42,7 @@
         android:layout_height="60dp"
         android:hint="@string/txt_hint_year"
         android:layout_margin="8dp"
+        android:inputType="number"
         app:layout_constraintTop_toBottomOf="@id/etArtName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -49,6 +52,8 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/purple_500"
+        android:text="@string/btn_save"
+        android:textColor="@color/white"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="16dp"
